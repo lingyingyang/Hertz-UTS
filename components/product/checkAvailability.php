@@ -14,7 +14,7 @@ session_start();
 // retrieve xml database
 $xml = simplexml_load_file("../../database/cars.xml") or die("Error: Cannot create Object");
 foreach ($xml->children() as $cars) {
-    if ($id == $cars->id){
+    if (($id == $cars->id) && ("Y" == $cars->Availability)){
         // add item to shopping cart
         $car_detail = array(
             "Mileage" => (string) $cars->Mileage,

@@ -33,11 +33,11 @@
 
             foreach ($_SESSION["cart"] as $id => $item) {
                 echo '<tr>';
-                echo '<th scope="row">1</th>';
-                echo '<td>'.$item["Year"].'-'.$item["Brand"].'-'.$item["Model"].'</td>';
-                echo '<td>'.$item["PricePerDay"].'</td>';
-                echo '<td><input name="rentalDays[]" type="number" min="1" value="'.$item["RentalDays"].'" </td>';
-                echo '<td><button type="submit" onclick="document.getElementById(\'deleteId\').value=' . $id . '" class="btn btn-danger" form="deleteForm">Delete</button></td></tr>';
+                echo '<td class="align-middle" scope="row"><img style="width: 70px; height: 70px;" class="img-thumbnail" src="../../images/'.$item["Model"].'.jpg"></td>';
+                echo '<td class="align-middle" class="align-middle">'.$item["Year"].'-'.$item["Brand"].'-'.$item["Model"].'</td>';
+                echo '<td class="align-middle">'.$item["PricePerDay"].'</td>';
+                echo '<td class="align-middle"><input name="rentalDays[]" type="number" required max="300" min="1" value="'.$item["RentalDays"].'" </td>';
+                echo '<td class="align-middle"><button type="submit" onclick="document.getElementById(\'deleteId\').value=' . $id . '" class="btn btn-danger" form="deleteForm">Delete</button></td></tr>';
             }
 
             echo '</tbody></table>

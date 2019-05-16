@@ -27,8 +27,8 @@
     </script>
 </head>
 <body>
-<div class="container mt-4">
-<div class="card-deck" name="carList">
+<div class="container mt-3">
+<div class="row">
 
     <?php
     // retrieve xml database
@@ -36,18 +36,18 @@
 
     // loop car list
     foreach ($xml->children() as $cars) {
-        echo '<div class="card mb-4 w-25">';
-        echo '<img src="../../images/' . $cars->Model . '.jpg" class="card-img-top" style="height: 120px;" alt="' . $cars->Model . '.jpg">';
+        echo '<div class="col-sm-3 mb-3">';
+        echo '<div class="card">';
+        echo '<img src="../../images/' . $cars->Model . '.jpg" class="card-img-top img-fluid" style="height: 200px;" alt="' . $cars->Model . '.jpg">';
         echo '<div class="card-body">';
         echo '<h5 class="card-title">' . $cars->Brand . '-' . $cars->Model . '-' .  $cars->Year . '</h5>';
-        echo '<ul class="list-group list-group-flush">';
-        echo '<li class="list-group-item"><b>mileage: </b>' . $cars->Mileage . '</li>';
-        echo '<li class="list-group-item"><b>fuel_type: </b>' . $cars->FuelType . '</li>';
-        echo '<li class="list-group-item"><b>seats: </b>' . $cars->Seats . '</li>';
-        echo '<li class="list-group-item"><b>price_per_day: </b>$'.$cars->PricePerDay.'</li>';
-        echo '<li class="list-group-item"><b>availability: </b>'.$cars->Availability.'</li>';
-        echo '<li class="list-group-item"><b>description: </b>'.$cars->Description.'</li></ul></div>';
-        echo '<div class="card-body text-right">';
+        echo '<ul class="list-unstyled">';
+        echo '<li class="card-text"><b>mileage: </b>' . $cars->Mileage . '</li>';
+        echo '<li class="card-text"><b>fuel_type: </b>' . $cars->FuelType . '</li>';
+        echo '<li class="card-text"><b>seats: </b>' . $cars->Seats . '</li>';
+        echo '<li class="card-text"><b>price_per_day: </b>$'.$cars->PricePerDay.'</li>';
+        echo '<li class="card-text"><b>availability: </b>'.$cars->Availability.'</li>';
+        echo '<li class="card-text"><b>description: </b>'.$cars->Description.'</li></ul></div>';
         echo '<a href="#" onclick="checkAvailability('.$cars->id.');" class="btn btn-primary">Add to Cart</a></div></div>';
     }
     ?>

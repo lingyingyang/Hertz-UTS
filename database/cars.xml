@@ -6,118 +6,118 @@
         <Brand>Toyota</Brand>
         <Model>Camry</Model>
         <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Mileage>20000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
         <PricePerDay>120</PricePerDay>
-        <Description>Sedan xxxxxxx</Description>
+        <Description>Camry is an automobile sold by the Japanese manufacturer Toyota since 1982.</Description>
     </item>
-    <item Category="SUV">
+    <item Category="Sedan">
         <id>1001</id>
         <Availability>N</Availability>
-        <Brand>Toyota</Brand>
-        <Model>Jimny</Model>
-        <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Brand>BMW</Brand>
+        <Model>320i</Model>
+        <Year>2016</Year>
+        <Mileage>11000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
+        <PricePerDay>125</PricePerDay>
+        <Description> is a compact executive car manufactured by the German automaker BMW since May 1975.</Description>
     </item>
     <item Category="SUV">
         <id>1002</id>
         <Availability>Y</Availability>
-        <Brand>Toyota</Brand>
-        <Model>Jimny</Model>
-        <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Brand>Holden</Brand>
+        <Model>Captiva</Model>
+        <Year>2017</Year>
+        <Mileage>19000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
+        <PricePerDay>130</PricePerDay>
+        <Description>Captiva is a crossover SUV produced from 2006 to 2018 by GM Korea, previously known as Daewoo.</Description>
     </item>
     <item Category="SUV">
         <id>1003</id>
         <Availability>Y</Availability>
-        <Brand>Toyota</Brand>
-        <Model>Jimny</Model>
-        <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Brand>Jeep</Brand>
+        <Model>Cherokee</Model>
+        <Year>2016</Year>
+        <Mileage>18000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
+        <PricePerDay>135</PricePerDay>
+        <Description>Cherokee is very comfortable because I am a regular driver, I enjoy the comfort of the driver's seat.</Description>
     </item>
-    <item Category="SUV">
+    <item Category="Sedan">
         <id>1004</id>
         <Availability>N</Availability>
-        <Brand>Toyota</Brand>
-        <Model>Jimny</Model>
-        <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Brand>Honda</Brand>
+        <Model>Civic</Model>
+        <Year>2015</Year>
+        <Mileage>17000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
+        <PricePerDay>140</PricePerDay>
+        <Description>Civic is still not the easiest car in the world to look at when you're front or rear on. </Description>
     </item>
-    <!-- <item Category="SUV">
+     <item Category="SUV">
         <id>1005</id>
-        <Availability>N</Availability>
-        <Brand>Toyota</Brand>
-        <Model>Jimny</Model>
-        <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Availability>Y</Availability>
+        <Brand>Benz</Brand>
+        <Model>GLC</Model>
+        <Year>2017</Year>
+        <Mileage>16000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
+        <PricePerDay>145</PricePerDay>
+        <Description>Updated GLC 300 Coupe – which will follow suit with the crossover's refresh</Description>
     </item>
-    <item Category="SUV">
+    <item Category="Wagon">
         <id>1006</id>
-        <Availability>N</Availability>
-        <Brand>Toyota</Brand>
-        <Model>Jimny</Model>
-        <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Availability>Y</Availability>
+        <Brand>Volkswagen</Brand>
+        <Model>Golf</Model>
+        <Year>2016</Year>
+        <Mileage>15000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
+        <PricePerDay>150</PricePerDay>
+        <Description>Volkswagen Golf R is something special – a deliciously driveable hot hatch with a very real way</Description>
     </item>
     <item Category="SUV">
         <id>1007</id>
-        <Availability>N</Availability>
-        <Brand>Toyota</Brand>
+        <Availability>Y</Availability>
+        <Brand>Suzuki</Brand>
         <Model>Jimny</Model>
-        <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Year>2018</Year>
+        <Mileage>14000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
+        <PricePerDay>155</PricePerDay>
+        <Description>Suzuki has shoehorned a bigger engine into its long-serving Jimny and heaps of kit. </Description>
     </item>
     <item Category="SUV">
         <id>1008</id>
-        <Availability>N</Availability>
-        <Brand>Toyota</Brand>
-        <Model>Jimny</Model>
+        <Availability>Y</Availability>
+        <Brand>Hyundai</Brand>
+        <Model>Sonata</Model>
         <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Mileage>13000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
+        <PricePerDay>160</PricePerDay>
+        <Description>Hyundai's new Sonata made its first stop in North America on Wednesday at the New York Autoshow.</Description>
     </item>
     <item Category="SUV">
         <id>1009</id>
         <Availability>N</Availability>
-        <Brand>Toyota</Brand>
-        <Model>Jimny</Model>
-        <Year>2013</Year>
-        <Mileage>10000</Mileage>
+        <Brand>Nissan</Brand>
+        <Model>X-trail</Model>
+        <Year>2012</Year>
+        <Mileage>9000</Mileage>
         <FuelType>petrol</FuelType>
         <Seats>5</Seats>
-        <PricePerDay>120</PricePerDay>
-        <Description>Jimny xxxxxxx</Description>
-    </item>-->
+        <PricePerDay>165</PricePerDay>
+        <Description>The X-Trail Ti is available with a choice of petrol powertrains, each with a CVT gearbox.</Description>
+    </item>
 </cars>
