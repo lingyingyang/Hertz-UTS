@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+    <item Category="Sedan">
+        <id>1000</id>
+        <Availability>Y</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Camry</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Sedan xxxxxxx</Description>
+    </item>
+    <item Category="SUV">
+        <id>1001</id>
+        <Availability>N</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>
+    <item Category="SUV">
+        <id>1002</id>
+        <Availability>Y</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>
+    <item Category="SUV">
+        <id>1003</id>
+        <Availability>Y</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>
+    <item Category="SUV">
+        <id>1004</id>
+        <Availability>N</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>
+    <!-- <item Category="SUV">
+        <id>1005</id>
+        <Availability>N</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>
+    <item Category="SUV">
+        <id>1006</id>
+        <Availability>N</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>
+    <item Category="SUV">
+        <id>1007</id>
+        <Availability>N</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>
+    <item Category="SUV">
+        <id>1008</id>
+        <Availability>N</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>
+    <item Category="SUV">
+        <id>1009</id>
+        <Availability>N</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Jimny</Model>
+        <Year>2013</Year>
+        <Mileage>10000</Mileage>
+        <FuelType>petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Jimny xxxxxxx</Description>
+    </item>-->
+</cars>
