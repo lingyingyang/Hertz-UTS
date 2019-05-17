@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../../content/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <script type="text/javascript" src="../js/ajax.js"></script>
     <script type="text/javascript">
@@ -27,7 +27,7 @@
     </script>
 </head>
 <body>
-<div class="container mt-3">
+<div class="container">
 <div class="row">
 
     <?php
@@ -36,7 +36,7 @@
 
     // loop car list
     foreach ($xml->children() as $cars) {
-        echo '<div class="col-sm-3 mb-3">';
+        echo '<div class="col-md-3 mb-3">';
         echo '<div class="card">';
         echo '<img src="../../images/' . $cars->Model . '.jpg" class="card-img-top img-fluid" style="height: 200px;" alt="' . $cars->Model . '.jpg">';
         echo '<div class="card-body">';
