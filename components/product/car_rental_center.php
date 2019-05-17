@@ -2,6 +2,8 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script type="text/javascript" src="../js/ajax.js"></script>
     <script type="text/javascript">
         function checkAvailability(id) {
@@ -24,11 +26,21 @@
             }
         }
 
+        $(document).ready(function () {
+            $("#searchInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#searchDIV div").filter(function() {
+                    $(this).toggle($(this).find(".card-title").text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+
     </script>
 </head>
 <body>
 <div class="container">
-<div class="row">
+    <input type="text" class="form-control" id="searchInput" placeholder="Search..">
+<div id="searchDIV" class="row mt-3">
 
     <?php
     // retrieve xml database
