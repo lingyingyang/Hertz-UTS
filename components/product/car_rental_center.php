@@ -51,7 +51,7 @@
         echo '<div class="col-md-3 mb-3">';
         echo '<div class="card">';
         echo '<img src="../../images/' . $cars->Model . '.jpg" class="card-img-top img-fluid" style="height: 200px;" alt="' . $cars->Model . '.jpg">';
-        echo '<div class="card-body">';
+        echo '<div class="card-body" style="padding-top: 0px; padding-bottom: 0px;">';
         echo '<h5 class="card-title">' . $cars->Brand . '-' . $cars->Model . '-' .  $cars->Year . '</h5>';
         echo '<ul class="list-unstyled">';
         echo '<li class="card-text"><b>mileage: </b>' . $cars->Mileage . '</li>';
