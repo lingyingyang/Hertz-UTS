@@ -15,7 +15,7 @@
         if (empty($_SESSION["cart"])){
             echo '<div class="container text-center">';
             echo '<h2>No items. Please select cars</h2>';
-            echo '<a href="../product/car_rental_center.php" target="mainFrame" class="btn btn-primary">Back to Home</a></div>';
+            echo '<a href="../product/car_rental_center.html" target="mainFrame" class="btn btn-primary">Back to Home</a></div>';
         }else{
             echo '<form id="checkoutForm" method="post" action="../checkout/checkout.php">';
             echo '<div class="container">

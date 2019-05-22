@@ -103,7 +103,7 @@ $_SESSION["total"]=$total;
         <h3>You are  to pay $<?php echo $total;?></h3>
         <div class="form-group row">
             <div class="col-sm-12 text-right">
-                <a href="../product/car_rental_center.php" target="mainFrame" class="btn btn-primary">Continue Selection</a>
+                <a href="../product/car_rental_center.html" target="mainFrame" class="btn btn-primary">Continue Selection</a>
                 <button type="submit" class="btn btn-primary">Booking</button>
             </div>
         </div>

@@ -49,7 +49,7 @@ mail($to, $subject, $message, $headers);
 
     <div class="container text-center">
         <h1>Sent email successfully.</h1>
-        <a href="../product/car_rental_center.php" target="mainFrame" class="btn btn-primary">Back to Home</a>
+        <a href="../product/car_rental_center.html" target="mainFrame" class="btn btn-primary">Back to Home</a>
     </div>
 
 </body>

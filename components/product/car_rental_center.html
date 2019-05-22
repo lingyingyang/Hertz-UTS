@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Vue.js library-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body onload="getCars();">
+<div class="container">
+    <input type="text" class="form-control" id="searchInput" placeholder="Search..">
+    <div id="searchDIV" class="row mt-3">
+        <div class="col-md-3 mb-3" v-for="car in cars">
+            <div class="card">
+                <img v-bind:src="'../../images/'+car.Model+'.jpg'" class="card-img-top img-fluid" style="height: 200px;">
+                <div class="card-body" style="padding-top: 0px; padding-bottom: 0px;">
+                    <h5 class="card-title">{{car.Brand}}-{{car.Model}}-{{car.Year}}</h5>
+                    <ul class="list-unstyled">
+                        <li class="card-text"><b>mileage: </b>{{car.Mileage}}</li>
+                        <li class="card-text"><b>fuel_type: </b>{{car.FuelType}}</li>
+                        <li class="card-text"><b>seats: </b>{{car.Seats}}</li>
+                        <li class="card-text"><b>price_per_day: </b>${{car.PricePerDay}}</li>
+                        <li class="card-text"><b>availability: </b>{{car.Availability}}</li>
+                        <li class="card-text"><b>description: </b>{{car.Description}}</li>
+                    </ul>
+                </div>
+                <a href="#" v-on:click="addToCart(car.id);" class="btn btn-primary">Add to Cart</a></div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/car_rental_center.js"></script>
+</body>
