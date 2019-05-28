@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 30881
- * Date: 5/16/2019
- * Time: 1:37 PM
- */
-
 // get request parameter
 $id = $_GET["id"];
 
